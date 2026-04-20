@@ -1,0 +1,114 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+
+}
+
+body {
+    background-color: #f8f9fc;
+}
+
+.sidbar {
+    background-color: #f4f4f4;
+    height: 700px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: sans-serif;
+    border-radius: 10px;
+
+}
+
+.sidbar .heading {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.sidbar ul {
+    margin-top: 50px;
+    font-size: 18px;
+    line-height: 50px;
+    display: block;
+    margin-left: 40px;
+    list-style: none;
+}
+
+.sidbar ul li:hover {
+    color: blue;
+}
+
+.navbar {
+    background-color: #f4f4f4;
+    width: 80%;
+    display: flex;
+    height: 65px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 230px;
+    margin-top: -700px;
+}
+
+.navbar input {
+    width: 200px;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 7px;
+}
+
+.second-container {
+    background-color: #f4f4f4;
+    width: 68%;
+    height: 150px;
+    border-radius: 10px;
+    margin-left: 230px;
+    margin-top: 10px;
+    display: flex;
+    gap: 90px;
+    align-items: center;
+    text-align: center;
+    padding-left: 170px;
+    line-height: 30px;
+}
+
+.second-container .flex {
+    display: flex;
+}
+
+.second-container button {
+    border-radius: 5px;
+    height: 19px;
+    margin-top: 5px;
+
+}
+
+.second-container button h5 {
+    color: rgb(4, 243, 4);
+
+}
+
+.sales-analytics {
+    height: 450px;
+    width: 450px;
+    background-color: #970f0f;
+    border-radius: 10px;
+    margin-left: 235px;
+    margin-top: 13px;
+}
+.d1{
+    justify-content: space-between;
+    display: flex;
+}
+.d1 button{
+    margin: 13px 20px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.sales-analytics h3 {
+    margin-left: 17px;
+    padding-top: 10px;
+}
